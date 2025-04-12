@@ -1,0 +1,420 @@
+/*
+    Cores Light Mode:
+
+    Header fundo: #005A8D
+    Header texto: #FFFFFF
+    Botões do menu: #F77F00
+    Botões do menu (hover): #D86900
+    Fundo da página: #F4F7F9
+    Fundo das seções: #FFFFFF
+    Texto padrão: #1E293B
+    Texto de destaque: #F77F00
+    Botão primário: #F77F00
+    Botão primário (hover): #D86900
+    Botão secundário: #0077B6
+    Botão secundário (hover): #005A8D
+    Rodapé fundo: #1E293B
+    Rodapé texto: #F4F7F9
+    Rodapé destaque: #F77F00
+
+    Cores Dark Mode:
+    H1: #00A6FB
+    H2 e H3: #ADB5BD
+    Fundo blocos tecnologias: #1C2532
+    Borda blocos tecnologias: #00A6FB
+    Header fundo: #121721
+    Header texto: #E5E7EB
+    Botões do menu: #FF9100
+    Botões do menu (hover): #D67800
+    Fundo da página: #121721
+    Fundo das seções: #1C2532
+    Texto padrão: #E5E7EB
+    Texto de destaque: #FF9100
+    Botão primário: #FF9100
+    Botão primário (hover): #D67800
+    Botão secundário: #00A6FB
+    Botão secundário (hover): #0077B6
+    Rodapé fundo: #0D131A
+    Rodapé texto: #E5E7EB
+    Rodapé destaque: #FF9100
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF2F6;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 92px;
+    background-color: #005A8D;
+    color: #FFFFFF;
+}
+
+section {
+    padding: 10px;
+    margin: 0px 10px 100px 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+span {
+    font-family: "Poppins";
+}
+
+strong {
+    color: #F77F00;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins";
+}
+
+p {
+    font-family: "Roboto";
+    text-indent: 10px;
+    color: #1E293B;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+button#btnLinksPag.close, button#btnLinksPag.open {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #005A8D;
+}
+
+nav#navLinksPag {
+    width: 50%;
+}
+
+a.linksPag {
+    color: #F77F00;
+    background-color: #005A8D;
+    padding: 5px 8px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+a.linksPag:hover {
+    color: #FFFFFF;
+    background-color: #D86900;
+}
+
+div#modeColor {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+button.btnLightDarkMode {
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button#btnLightMode {
+    border: 2px solid #F19E39;
+}
+
+button#btnLightMode:hover {
+    background-color: #F19E39;
+}
+
+button#btnDarkMode {
+    border: 2px solid black;
+}
+
+button#btnDarkMode:hover {
+    background-color: black;
+}
+
+img.imgLightDarkMode {
+    width: 30px;
+}
+
+section#inicio {
+    padding: 0px;
+    margin-top: 20px;
+    background-image: url('../imgs/foto-background.avif');
+    background-position: center center;
+    background-size: cover;
+}
+
+div#conteudoInicio {
+    background-color: rgba(214, 214, 214, 0.498);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+div.imgR {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+div#linksRedSoc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+a.aRedSoc {
+    padding: 5px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+a#linkGitH {
+    background-color: rgba(0, 0, 0, 0.623);
+    color: rgba(255, 255, 255, 0.47);
+}
+
+a#linkGitH:hover {
+    transition: 0.6s;
+    background-color: black;
+    color: white;
+}
+
+a#linkInsta {
+    background-image: linear-gradient(to right, #4763c97e, #e23ab585, #fd520386, #ffa70385);
+    color: black;
+}
+
+a#linkInsta:hover {
+    transition: 0.5s;
+    color: white;
+    background-image: linear-gradient(to right, #4764C9, #E23AB4, #FD5403, #FFA803);
+}
+
+section#habilidades > p {
+    margin: 15px 0px 5px 0px;
+}
+
+div.tecnologia {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+div.tecnologia > p {
+    text-indent: 0px;
+    font-family: "Poppins";
+}
+
+img.imgTec {
+    width: 60%;
+}
+
+div#btnTecPro > button > p {
+    text-indent: 0px;
+}
+
+section#projetos > p {
+    margin: 15px 0px 10px 0px;
+}
+
+img.imgProj {
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+
+video#videoProj {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+span.htmlCssJs {
+    color: white;
+    background-color: rgb(187, 88, 53);
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+span#PHP {
+    color: white;
+    background-color: #777BB3;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+span.wordPrElem {
+    color: white;
+    background-color: #01579B;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+button#btnHtmlCssJs {
+    background-color: rgba(187, 89, 53, 0.689);
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+button#btnHtmlCssJs:hover {
+    background-color: rgb(187, 88, 53);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button#btnHtmlCssJs:hover > p {
+    color: white;
+}
+
+button#btnPhp {
+    background-color: #777bb398;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+button#btnPhp:hover {
+    background-color: #777BB3;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button#btnPhp:hover > p {
+    color: white;
+}
+
+button#btnWpElem {
+    background-color: #01589bc4;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+button#btnWpElem:hover {
+    background-color: #01579B;
+    color: white;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+button#btnWpElem:hover > p {
+    color: white;
+}
+
+div#projetosHtmlCssJs {
+    display: none;
+}
+
+div#projetoPHP {
+    display: none;
+}
+
+div#projetosWpElem {
+    display: none;
+}
+
+div#conteudoProj p {
+    margin: 25px 0px;
+}
+
+div#divLinksProj {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 20px 0px 40px 0px;
+}
+
+a.linksProj {
+    background-color: #F77F00;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 0px;
+    border-radius: 8px;
+    color: black;
+    width: 35%;
+}
+
+a.linksProj:hover {
+    background-color: #D86900;
+    color: white;
+}
+
+a.linksRepo {
+    background-color: #0077B6;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 0px;
+    border-radius: 8px;
+    color: black;
+    width: 35%;
+}
+
+a.linksRepo:hover {
+    background-color: #005A8D;
+    color: white;
+}
+
+a#linkTopo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    background-color: #4769e3;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+a#linkTopo:hover {
+    background-color: #00219a;
+}
+
+img#imgSetaCima {
+    width: 30px;
+}
+
+footer {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins";
+    background-color: #1E293B;
+}
+
+footer > p {
+    color: #F4F7F9;
+}

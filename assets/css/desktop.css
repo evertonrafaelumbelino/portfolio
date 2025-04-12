@@ -1,0 +1,121 @@
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    h1, h2, h3 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 135%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    button#btnLinksPag.close, button#btnLinksPag.open{
+        display: none;
+    }
+    
+    nav#navLinksPag {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.linksPag {
+        margin: 5px;
+        border-radius: 8px;
+    }
+
+    div#modeColor {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        max-width: 700px;
+    }
+
+    section {
+        max-width: 700px;
+    }
+
+    section#inicio {
+        width: 700px;
+    }
+
+    div#inicioTexto {
+        font-size: 28px;
+    }
+
+    div.imgR {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img#rosto {
+        width: 80%;
+        border-radius: 50%;
+    }
+
+    div#linksRedSoc {
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+
+    a.aRedSoc {
+        padding: 1.5% 10%;
+        font-size: 102%;
+    }
+
+    section#sobre {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    section#sobre > div.imgR {
+        grid-column: 1/2;
+        grid-row: 1/1;
+    }
+
+    div#sobreTexto {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        padding: 5px;
+    }
+
+    div#sobreTexto > h2 {
+        margin-bottom: 10px;
+    }
+
+    div#skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px;
+    }
+
+    video#videoProj {
+        width: 90%;
+        height: 60vh;
+    }
+
+    div#btnTecPro {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 0px;
+    }
+
+    div#btnTecPro > button {
+        padding: 12px;
+        width: 32%;
+        margin: 20px 2px;
+        height: 55px;
+    }
+
+    div#btnTecPro > button > p {
+        font-size: 135%;
+    }
+}

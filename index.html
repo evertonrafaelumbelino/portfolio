@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/tablet.css">
+    <link rel="stylesheet" href="assets/css/desktop.css">
+
+    <!-- Fonte Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Everton Rafael | Dev Web</title>
+</head>
+
+<header id="header">
+    <h1>Everton Rafael | Dev Web</h1>
+
+    <button type="button" id="btnLinksPag" class="close">
+        <img src="assets/imgs/menu-dark-mode.png" alt="Menu" id="imgMenu">
+    </button>
+
+    <nav id="navLinksPag">
+        <a href="#inicio" class="linksPag">Início</a>
+        <a href="#sobre" class="linksPag">Sobre</a>
+        <a href="#habilidades" class="linksPag">Habilidades</a>
+        <a href="#projetos" class="linksPag">Projetos</a>
+    </nav>
+</header>
+
+<div id="modeColor">
+    <button type="button" id="btnLightMode" class="btnLightDarkMode">
+        <img src="assets/imgs/sol-light-mode.png" alt="Light Mode" class="imgLightDarkMode" id="imgLightMode">
+    </button>
+
+    <button type="button" id="btnDarkMode" class="btnLightDarkMode">
+        <img src="assets/imgs/lua-dark-mode.png" alt="Dark Mode" class="imgLightDarkMode" id="imgDarkMode">
+    </button>
+</div>
+
+<body id="body">
+    <a href="#header" id="linkTopo">
+        <img src="assets/imgs/seta-cima.png" alt="Seta para cima" id="imgSetaCima">
+    </a>
+
+    <section id="inicio">
+        <div id="conteudoInicio">
+            <div id="inicioTexto">
+                <h2>Olá, eu sou <br><strong>Everton Rafael</strong></h2>
+                
+                <h3>Desenvolvedor Web</h3>
+            </div>
+            <br>
+            <div id="linksRedSoc">
+                <a href="https://github.com/evertonrafaelumbelino" target="_blank" id="linkGitH" class="aRedSoc">GitHub</a>
+            
+                <a href="https://www.instagram.com/evertonrafaelumbelino/" target="_blank" id="linkInsta" class="aRedSoc">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="imgR">
+            <img src="assets/imgs/meu-rosto.jpg" alt="Imagem" id="rosto">
+        </div>
+
+        <div id="sobreTexto">
+            <h2>Sobre mim</h2>
+            <p>
+                Meu nome é Everton Rafael, sou um Desenvolvedor Web em formação, e estudo programação há cerca de oitro meses. Atualmente, estou focado em aprimorar minhas habilidades, criando projetos próprios e buscando oportunidades como freelancer. Meu objetivo é desenvolver soluções eficientes e responsivas, proporcionando a melhor experiência possível para usuários e clientes.
+            </p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Minhas habilidades</h2>
+        <p>Tenho habilidades para desenvolver sites modernos, responsivos e bem estruturados, utilizando as seguintes tecnologias e ferramentas de programação:</p>
+
+        <div id="skills">
+            <div class="tecnologia">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" class="imgTec"/>
+                <p>HTML5</p>
+            </div>
+
+            <div class="tecnologia" >
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" class="imgTec"/>
+                <p>CSS3</p>
+            </div>
+
+            <div class="tecnologia" >
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JS" class="imgTec"/>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="tecnologia" >
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" class="imgTec"/>
+                <p>Git</p>
+            </div>
+
+            <div class="tecnologia" >
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" class="imgTec"/>
+                <p>PHP</p>
+            </div>
+
+            <div class="tecnologia">
+                <img src="assets/imgs/wordpress.png" alt="WordPress" class="imgTec"/>
+                <p>WordPress</p>
+            </div>
+
+            <div class="tecnologia">
+                <img src="assets/imgs/elementor.png" alt="Elementor" class="imgTec"/>
+                <p>Elementor</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos:</h2>
+        <p>Clicando nos botões, vão ter alguns projetos que eu já criei.</p>
+
+        <div id="btnTecPro">
+            <button type="button" id="btnHtmlCssJs">
+                <p>HTML / CSS / JS</p>
+            </button>
+
+            <button type="button" id="btnPhp">
+                <p>PHP</p>
+            </button>
+
+            <button type="button" id="btnWpElem">
+                <p>WordPress / Elementor</p>
+            </button>
+        </div>
+
+        <div id="conteudoProj">
+            <div id="projetoPHP">
+                <h2>Login e Cadastro</h2>
+                <img src="assets/imgs/projeto-cadastro-login.png" alt="Imagem projeto" class="imgProj">
+                <br>
+                <span id="PHP">PHP</span>
+                <p>Simula um local de cadastro e login de usuários, onde nele é possível cadastrar, logar, e deletar uma conta. Os dados dos usuários são armazenados em um arquivo JSON.</p>
+                <div id="divLinksProj">
+                    <a href="https://cadastro-login-php-production.up.railway.app/" target="_blank" class="linksProj">Projeto</a>
+                
+                    <a href="https://github.com/evertonrafaelumbelino/cadastro-login-php" target="_blank" class="linksRepo">Repositório</a>
+                </div>
+            </div>
+
+            <div id="projetosHtmlCssJs">
+                <h2>Landing Page</h2>
+                <img src="assets/imgs/projeto-landing-page.png" alt="Imagem projeto" class="imgProj">
+                <br>
+                <span class="htmlCssJs">HTML / CSS / JS</span>
+                <p>É uma Landing Page criada para uma empresa de tecnologia fictícia, chamada Tech Nova Solutions, onde no projeto é possível ver todas as características da empresa.</p>
+                <div id="divLinksProj">
+                    <a href="https://evertonrafaelumbelino.github.io/landing-page/" target="_blank" class="linksProj">Projeto</a>
+                
+                    <a href="https://github.com/evertonrafaelumbelino/landing-page" target="_blank" class="linksRepo">Repositório</a>
+                </div>
+
+                <h2>Calculadora</h2>
+                <img src="assets/imgs/projeto-calculadora.png" alt="Imagem projeto" class="imgProj">
+                <br>
+                <span class="htmlCssJs">HTML / CSS / JS</span>
+                <p>Um projeto de uma calculadora comum e funcional, que é capaz de fazer calculos de soma, subtração, divisão e multiplicação.</p>
+                <div id="divLinksProj">
+                    <a href="https://evertonrafaelumbelino.github.io/calculadora/" target="_blank" class="linksProj">Projeto</a>
+                
+                    <a href="https://github.com/evertonrafaelumbelino/calculadora" target="_blank" class="linksRepo">Repositório</a>
+                </div>
+            </div>
+
+            <div id="projetosWpElem">
+                <h2>Site Institucional com foco comercial</h2>
+                <video src="assets/videos/projeto-boost-marketing.mp4" controls id="videoProj"></video>
+                <br>
+                <span class="wordPrElem">WordPress / Elementor</span>
+                <p>Projeto que simula um site de uma empresa fictícia de marketing digital, onde nesse site é apresentado todas as informações dessa empresa,e os serviços que ela pode oferecer.</p>
+                <p>Não encontrei uma hospedagem gratuita para o projeto, então gravei o vídeo acima de forma local.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+<footer id="footer">
+    <p><span id="footerP">Site criado por </span><strong>Everton Rafael</strong></p>
+</footer>
+
+<script src="assets/js/index.js"></script>
+</html>
