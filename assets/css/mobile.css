@@ -1,11 +1,4 @@
 @media screen and (min-width: 320px) and (max-width: 600px) {
-    /*
-    Paleta de cores:
-        Vermelho Carmesim: #710014
-        Bege/Areia: #B38F6F
-        Branco alterado: #F2F1ED
-    */
-
     header > h1 {
         font-size: 24px;
     }

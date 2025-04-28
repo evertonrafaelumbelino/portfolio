@@ -58,7 +58,7 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     height: 92px;
     background-color: #005A8D;
@@ -333,7 +333,7 @@ button#btnWpElem:hover > p {
 }
 
 div#projetosHtmlCssJs {
-    display: none;
+    display: block;
 }
 
 div#projetoPHP {
@@ -342,6 +342,10 @@ div#projetoPHP {
 
 div#projetosWpElem {
     display: none;
+}
+
+div#conteudoProj h2 {
+    margin-top: 50px;
 }
 
 div#conteudoProj p {
@@ -405,6 +409,38 @@ a#linkTopo:hover {
 
 img#imgSetaCima {
     width: 30px;
+}
+
+section#servicos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#servicos > h2 {
+    margin-bottom: 20px;
+}
+
+div#btnServicos {
+    background-color: #F77F00;
+    padding: 10px;
+    margin: 40px 0px 20px 0px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+div#btnServicos:hover {
+    background-color: #D86900;
+    cursor: pointer;
+}
+
+div#btnServicos > a {
+    color: black;
+}
+
+div#btnServicos:hover > a {
+    color: white;
 }
 
 footer {
